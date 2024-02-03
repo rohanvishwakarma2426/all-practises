@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:15px 30px;
+    font-size: 18px;
+    padding: 9px;
+}
+.container{
+   background-color: rgb(187, 153, 131);
+   padding: 5px 20px 15px 20px ;
+   border: 3px solid rgb(255, 153, 0);
+   border-radius: 5px;
+}
+.main-heading{
+    text-align: center;
+}
+input[type="taxt"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid crimson;
+    border-radius: 5px;
+    margin: 10px;
+}
+fieldset{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid crimson;
+    border-radius: 5px;
+}
+.main-heading{
+    text-align: center;
+}
+input[type="submit"]{
+    background-color: aqua;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.nav{
+    background: fixed;
+}
+.hello {
+    height: 1px;
+    width: 4px;
+}

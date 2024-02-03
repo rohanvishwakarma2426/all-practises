@@ -1,0 +1,12 @@
+h3{
+ color: brown;
+}
+ul{
+    color: blue;
+}
+p::first-line{
+    color: brown;
+}
+thead > th{
+    color: darkgreen;
+}

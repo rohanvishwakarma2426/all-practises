@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment_form</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <div class="container">
+    <form action="" method="get">
+        <h1 class="main-heading" >payment form</h1>
+        <hr>
+        <p> required fileds are followed by *</p>
+        <h2>content information</h2>
+        <p> <label for="myname">Name:</label> * <input type="taxt" name="name" required id="myname" ></p>
+            <fieldset>
+                <legend>gender</legend>
+            <p>
+             male <input type="radio" name="gender" id="male" required>female <input type="radio" name="gender" id="female" required>
+            </p>
+            </fieldset>
+            <p>Address: * <textarea name="address" id="address" cols="100" rows="8"></textarea></p>
+            <p> email: * <input type="email" name="email" id="email" required></p>
+            <p>pincode: *<input type="number" name="pincode" id="pincode" required></p>
+            <h1> payment</h1>
+            <p> Card Type : *
+                <select name="card_type" id="card_typer" required>
+                    <option value="">--select a card type --</option>
+                    <option value="visa">visa</option>
+                    <option value="master card"> master card</option>
+                    <option value="rupay">rupay</option>
+                </select>
+            </p>
+            <p>
+                card number: * <input type="number" name="card number" id="card number" required>
+            </p>
+            <p>
+                Expiration date: * <input type="date" name=" exp date" id="exp date" required>
+            </p>
+            <p>
+                CVV: * <input type="password" name="cvv" id="cvv" required>
+            </p>
+            <input type="submit" value="pay now">
+        </form>
+        <ul id="nav">
+       <li> <a data-email="iamkaran6307@gmail.com" href="mailto:iamrohan00126@gmail.com" > <img id="hello " src="founder img/email_PNG36.png" alt="" height="33px" width="44px"></a></li>
+    </ul>
+    <label for="lable">  search</label> 
+     <input type="text" list="hello" id="lable">
+           <datalist id="hello">
+                 <option value="apple"></option>
+                 <option value="mango"></option>
+                 <option value="papya"></option>
+                 <option value="orange"></option>
+                 <option value="banana"></option>
+                 <option value="grps"></option>
+                 <option value="lichi"></option>
+           </datalist>
+          <input type="submit" value="search">
+          
+    </div>
+</body>
+</html>

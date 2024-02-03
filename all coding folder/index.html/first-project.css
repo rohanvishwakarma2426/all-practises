@@ -1,0 +1,29 @@
+.sam{
+    background-color: rgb(237, 241, 0);
+   padding: 5px 20px 15px 20px ;
+   border: 3px solid rgb(253, 3, 3);
+   border-radius: 5px;
+}
+.main-heading{
+    text-align: center;
+}
+fieldset{
+    width: 100%;
+    border: 2px solid red;
+    padding: 1px;
+    border-radius: 4px;
+}
+input[type="taxt"],
+input[type="contact"],
+input[type="number"],
+textarea{
+    width: 100%;
+    padding: 1px;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+input[type="submit"]{
+    background-color: red;
+    cursor: pointer;
+    color: w;
+}
